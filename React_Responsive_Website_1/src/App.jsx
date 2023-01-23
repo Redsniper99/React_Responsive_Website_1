@@ -1,5 +1,4 @@
 import styles from './styles'
-import {bg} from "./assets"
 import {
   Navbar,
   Hero,
@@ -26,7 +25,7 @@ const App = () => (
 
       <div className={`bg-primary ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          {/* <Hero /> */}
+          <Hero />
         </div>
       </div>
 

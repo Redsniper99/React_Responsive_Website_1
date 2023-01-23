@@ -4,8 +4,6 @@ import binance from "./binance.png";
 import card from "./card.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
-import logo from "./logo.svg";
-import bg from "./bg.png";
 import logo2 from "./logo2.png";
 import logo6 from "./logo6.svg";
 import quotes from "./quotes.svg";
@@ -26,6 +24,8 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import heroBut from "./heroBut.png";
+import hero from "./hero.png";
 export {
   airbnb,
   bill,
@@ -33,10 +33,8 @@ export {
   card,
   coinbase,
   dropbox,
-  logo,
   logo2,
   logo6,
-  bg,
   quotes,
   robot,
   send,
@@ -55,5 +53,6 @@ export {
   people01,
   people02,
   people03,
-
+  heroBut,
+  hero,
 };
