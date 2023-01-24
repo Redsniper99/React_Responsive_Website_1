@@ -6,14 +6,14 @@ import { navLinks } from "../constants";
 const Navbar = () => {
     const [toggle, setToggle] = useState(false)
   return (
-    <nav className="w-full flex py-3 justify-between item-center navbar">
-      <img src={logo6} alt="logo" className="w-[100px] h-[100px] " />
+    <nav className="w-full flex  justify-between item-center navbar">
+      <img src={logo6} alt="logo" className="w-[40px] h-[40px] " />
 
-      <ul className="list-none sm:flex hidden justify-end items-center flex-1 mb-5 ">
+      <ul className="list-none sm:flex hidden justify-end items-center flex-1 ">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length-1 ? 'mr-0':'mr-10'} text-white mr-10`}
+            className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length-1 ? 'mr-0':'mr-10'} text-white`}
           >
             <a href={`#${nav.id}`}>
               {nav.title}
@@ -23,7 +23,7 @@ const Navbar = () => {
       </ul>
 
       <div className="sm:hidden flex flex-1 justify-end items-center ">
-        <img src={toggle ? close : menu}  alt="menu" className="w-[28px] h-[28px] object-contain mb-8 mr-2"
+        <img src={toggle ? close : menu}  alt="menu" className="w-[28px] h-[40px] object-contain mb-8 mr-7"
         onClick={()=> setToggle((prev) => !prev)}/>
 
         <div
