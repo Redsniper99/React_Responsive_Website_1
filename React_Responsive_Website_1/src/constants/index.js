@@ -19,27 +19,27 @@ export const navLinks = [
   },
 ];
 
-export const features = [
+export const services = [
   {
-    id: "feature-1",
+    id: "service-1",
     icon: star,
-    title: "Rewards",
+    title: "Architecture",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Our architecture services include conceptual design, detailed design, and project management for efficient and visually pleasing buildings.",
   },
   {
-    id: "feature-2",
+    id: "service-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Design and Build",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Our design and build service offers a seamless, one-stop solution for construction projects, including design, planning, and construction all under one contract.",
   },
   {
-    id: "feature-3",
+    id: "service-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Building Construction",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Our building construction services cover all aspects of construction, from site preparation to finish work, using the latest technology and techniques to deliver high-quality, sustainable structures.",
   },
 ];
 

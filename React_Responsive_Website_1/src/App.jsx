@@ -12,7 +12,7 @@ import {
   Footer,
   Business,
   CTA,
-  Billing,
+  Services,
 } from './components'
 
 const App = () => (
@@ -33,9 +33,10 @@ const App = () => (
         <div className={`${styles.boxWidth}`}>
 
           
-          {/* <Stats />
-          <Business />
-          <Billing/>
+          <Stats />
+         
+          <Services/>
+           {/* <Business />
           <CardDeal />
           <Testimonials/>
           <Clients/>
