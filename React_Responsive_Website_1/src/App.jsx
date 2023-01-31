@@ -16,7 +16,7 @@ import {
 } from './components'
 
 const App = () => (
-    <div  className='bg-primary w-full overflow-hidden p-4' >
+    <div  className='bg-primary w-full overflow-hidden py-2' >
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
@@ -36,9 +36,11 @@ const App = () => (
           <Stats />
          
           <Services/>
-           {/* <Business />
           <CardDeal />
           <Testimonials/>
+           {/* <Business />
+         
+          
           <Clients/>
           <CTA/>
           <Footer/> */}

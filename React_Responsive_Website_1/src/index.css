@@ -138,3 +138,38 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+.card{
+  @apply w-72 cursor-pointer border-b-4 rounded-md bg-gradient-to-t from-white/20 h-44 text-center px-3 py-7 self-end;
+}
+
+.swiper{
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide{
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img{
+  display:block;
+  width: 100%;
+  height: 100%;
+  display: block;
+}

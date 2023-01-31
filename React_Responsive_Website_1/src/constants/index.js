@@ -1,5 +1,8 @@
 import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
+
+
+
 export const navLinks = [
   {
     id: "home",
@@ -73,18 +76,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Projects Completed",
+    value: "100+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Projects On-Going",
+    value: "15+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Employees",
+    value: "75+",
   },
 ];
 

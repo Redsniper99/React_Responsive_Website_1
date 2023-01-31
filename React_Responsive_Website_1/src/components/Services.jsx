@@ -5,7 +5,7 @@ const Services = () =>
  (
  
     <div className=' py-12 sm:py-32 lg:py-20'>
-      <div className='mx-auto max-w-7x1 px-6 lg:px-8'>
+      <div className='mx-auto max-w-7x1 px-1 lg:px-8'>
         <div className='sm:text-center'>
           <h2 className='text-2xl font-semibold leading-8 text-white'> Our Services</h2>
           {/* <p className='mt-2 text-3x1 font-bold tracking-tight text-gray-900 sm:text-4x1'> MNAKK</p> */}
