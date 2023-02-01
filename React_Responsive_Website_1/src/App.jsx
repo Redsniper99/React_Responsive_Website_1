@@ -3,15 +3,9 @@ import {
   Navbar,
   Hero,
   Stats,
-  //FeedbackCard,
-  //GetStarted,
-  //Button,
-  CardDeal,
-  Clients,
+  Projects,
   Testimonials,
   Footer,
-  Business,
-  CTA,
   Services,
 } from './components'
 
@@ -33,22 +27,23 @@ const App = () => (
         <div className={`${styles.boxWidth}`}>
 
           
-          <Stats />
-         
+          <Stats /> 
           <Services/>
-          <CardDeal />
+          <Projects />
           <Testimonials/>
-           {/* <Business />
          
-          
-          <Clients/>
-          <CTA/>
-          <Footer/> */}
 
 
 
           </div>
+         
+          
       </div>
+      <div >
+      <Footer/> 
+
+      </div>
+      
     </div>
   );
 

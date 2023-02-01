@@ -1,5 +1,4 @@
 import React from "react";
-import Typewriter from "typewriter-effect/dist/core";
 import styles from "../styles";
 import GetStarted from "./GetStarted";
 import { hero } from "../assets";

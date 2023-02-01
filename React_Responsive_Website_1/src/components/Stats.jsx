@@ -1,8 +1,6 @@
 import React from 'react';
 import styles from "../styles";
-import { useState } from "react"
-import { close, logo6, menu } from "../assets";
-import { navLinks, stats } from "../constants";
+import {stats } from "../constants";
 
 const Stats = () => 
    (
